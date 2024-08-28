@@ -13,19 +13,46 @@
 <body>
   <h1>TrackMyCash</h1>
   <p>Kindly fill out this form</p>
-  <form>
+  <form action="" method="GET/POST">
     <label for="name">Name: </label>
-    <input type="name" id="name">
-    <br/>
+    <input type="name" id="name" placeholder="Your name">
+    <br>
     <label for="email">Email: </label>
-    <input type="email" id="email">
-    <br/>
+    <input type="email" id="email" placeholder="wxyz@example.com" required>
+    <br>
     <label for="password">Password: </label>
-    <input type="password" id="password">
-    <br/>
-
+    <input type="password" id="password" required>
+    <br>
     <button type="submit">Submit</button>
   </form>
+
+  <table border="1" cellpadding="10">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Phone number</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Lewis Maina</td>
+        <td>0728765455</td>
+        <td>lmaina12@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Charles Masai</td>
+        <td>0766745231</td>
+        <td>masaicharles07@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Stephanie Wangare</td>
+        <td>0755442132</td>
+        <td>stephwangare@gmail.com</td>
+      </tr>
+    </tbody>
+  </table>
   <a href="https://google.com">Click here!</a>
   <img src="https://images.pexels.com/photos/1602726/pexels-photo-1602726.jpeg?auto=compress&cs=tinysrgb&w=400" alt="This is the image of a piggy bank">
 </body>
